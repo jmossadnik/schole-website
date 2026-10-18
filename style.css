@@ -1,0 +1,55 @@
+/* SCHOLĒ — intentionally simple. Change these values to adjust the design. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: #171717; background: #fff; font-family: Arial, Helvetica, sans-serif; line-height: 1.7; }
+a { color: inherit; }
+header, footer { max-width: 1060px; margin: auto; padding: 25px 30px; display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+header { border-bottom: 1px solid #ddd; }
+.brand { font-family: Georgia, serif; font-size: 35px; letter-spacing: .04em; text-decoration: none; line-height: 1; }
+nav { display: flex; align-items: center; gap: 23px; }
+nav a, nav button, footer { font-size: 12px; text-decoration: none; }
+nav button { border: 1px solid #aaa; background: #fff; padding: 5px 8px; cursor: pointer; }
+main { max-width: 850px; margin: auto; padding: 0 30px; }
+section { padding: 90px 0; border-bottom: 1px solid #ddd; }
+.intro { padding: 105px 0 115px; }
+h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: normal; line-height: 1.16; }
+h1 { font-size: clamp(64px, 10vw, 108px); margin: 25px 0; letter-spacing: -.045em; }
+h2 { font-size: clamp(34px, 5vw, 52px); margin: 20px 0 30px; max-width: 650px; }
+h3 { font-size: 29px; margin: 0 0 10px; }
+p { max-width: 670px; font-size: 17px; }
+.large { font-size: 22px; line-height: 1.55; }
+.eyebrow, .number { font: 12px Arial, sans-serif; letter-spacing: .16em; color: #777; }
+.text-link { display: inline-block; margin-top: 18px; font-size: 15px; text-underline-offset: 6px; }
+.items { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin: 40px 0; }
+.items article { border-top: 1px solid #aaa; padding-top: 20px; }
+.items p { font-size: 15px; }
+.note { color: #666; font-style: italic; }
+footer { color: #666; }
+.mark { font-family: Georgia, serif; border: 1px solid #777; padding: 0 5px; margin-left: 8px; font-size: 18px; }
+@media (max-width: 650px) {
+  header, footer { padding: 20px; }
+  header { align-items: flex-start; }
+  .brand { font-size: 29px; }
+  nav { gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+  nav a { font-size: 11px; }
+  main { padding: 0 22px; }
+  section { padding: 65px 0; }
+  .intro { padding: 75px 0; }
+  .items { grid-template-columns: 1fr; gap: 12px; }
+  footer { flex-wrap: wrap; }
+}
+
+/* Main page: the wordmark and the letterpress-inspired ē are the centerpiece. */
+.intro { text-align: center; padding-top: 95px; padding-bottom: 95px; }
+.hero-name { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(70px, 14vw, 150px); letter-spacing: .015em; line-height: 1.1; margin: 0 0 36px; font-weight: normal; }
+.hero-symbol { width: 112px; height: 150px; border: 2px solid #171717; display: flex; align-items: center; justify-content: center; margin: 0 auto 34px; font: 132px/.9 Georgia, 'Times New Roman', serif; padding-bottom: 15px; }
+.hero-motto { margin: 0 auto; font: 13px Arial, sans-serif; letter-spacing: .24em; }
+.hero-description { border-top: 1px solid #ddd; margin-top: 95px; padding-top: 55px; text-align: left; }
+.hero-description .large { max-width: 680px; }
+@media (max-width: 650px) {
+  .intro { padding-top: 75px; }
+  .hero-name { font-size: clamp(54px, 13vw, 85px); }
+  .hero-symbol { width: 88px; height: 118px; font-size: 105px; }
+  .hero-motto { font-size: 10px; letter-spacing: .13em; }
+  .hero-description { margin-top: 70px; }
+}

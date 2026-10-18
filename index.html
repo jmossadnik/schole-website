@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SCHOLĒ is a Berlin-based community for independent research, teaching and learning.">
+  <title>SCHOLĒ — Research · Teach · Learn</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#top">SCHOLĒ</a>
+    <nav>
+      <a href="#about" data-en="About" data-de="Idee">About</a>
+      <a href="#activities" data-en="What we do" data-de="Was wir tun">What we do</a>
+      <a href="#join" data-en="Get involved" data-de="Mitmachen">Get involved</a>
+      <button id="language" type="button" aria-label="Switch language">DE</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-label="SCHOLĒ">
+      <h1 class="hero-name">SCHOLĒ</h1>
+      <div class="hero-symbol" aria-hidden="true">ē</div>
+      <p class="hero-motto">RESEARCH · TEACH · LEARN</p>
+      <div class="hero-description">
+        <p class="eyebrow">BERLIN · INDEPENDENT SCHOLARSHIP</p>
+        <p class="large" data-en="A community for people who want to do research, share knowledge and learn from one another — beyond traditional academic institutions." data-de="Eine Gemeinschaft für Menschen, die forschen, Wissen weitergeben und voneinander lernen wollen – auch außerhalb klassischer Wissenschaftseinrichtungen.">A community for people who want to do research, share knowledge and learn from one another — beyond traditional academic institutions.</p>
+        <a class="text-link" href="#join" data-en="Help build SCHOLĒ →" data-de="SCHOLĒ mit aufbauen →">Help build SCHOLĒ →</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="number">01 / <span data-en="THE IDEA" data-de="DIE IDEE">THE IDEA</span></p>
+      <h2 data-en="Curiosity does not end at the university gate." data-de="Neugier endet nicht am Universitätstor.">Curiosity does not end at the university gate.</h2>
+      <p data-en="Universities offer more than degrees and jobs. They provide seminars, colleagues, feedback and a place to exchange ideas. Outside academia, much of that infrastructure is harder to find." data-de="Universitäten bieten mehr als Abschlüsse und Stellen. Sie ermöglichen Seminare, Austausch mit Kollegen, Feedback und gemeinsame wissenschaftliche Arbeit. Außerhalb der Universität ist diese Infrastruktur oft schwer zugänglich.">Universities offer more than degrees and jobs. They provide seminars, colleagues, feedback and a place to exchange ideas. Outside academia, much of that infrastructure is harder to find.</p>
+      <p data-en="SCHOLĒ is an attempt to create such a place independently. We are starting in Berlin, with an open invitation to people elsewhere." data-de="SCHOLĒ ist der Versuch, einen solchen Ort unabhängig zu schaffen. Wir beginnen in Berlin und sind zugleich offen für Interessierte von anderswo.">SCHOLĒ is an attempt to create such a place independently. We are starting in Berlin, with an open invitation to people elsewhere.</p>
+    </section>
+
+    <section id="activities">
+      <p class="number">02 / <span data-en="WHAT WE WANT TO DO" data-de="WAS WIR VORHABEN">WHAT WE WANT TO DO</span></p>
+      <div class="items">
+        <article><h3 data-en="Research" data-de="Forschen">Research</h3><p data-en="Discuss ideas, present work in progress and give each other constructive criticism." data-de="Ideen diskutieren, laufende Projekte vorstellen und gegenseitig konstruktives Feedback geben.">Discuss ideas, present work in progress and give each other constructive criticism.</p></article>
+        <article><h3 data-en="Teach" data-de="Lehren">Teach</h3><p data-en="Offer seminars and workshops on subjects we know and care about." data-de="Seminare und Workshops zu Themen anbieten, mit denen wir uns auskennen und die uns interessieren.">Offer seminars and workshops on subjects we know and care about.</p></article>
+        <article><h3 data-en="Learn" data-de="Lernen">Learn</h3><p data-en="Read papers together, learn new methods and explore other disciplines." data-de="Gemeinsam Fachliteratur lesen, neue Methoden lernen und andere Disziplinen kennenlernen.">Read papers together, learn new methods and explore other disciplines.</p></article>
+      </div>
+      <p class="note" data-en="Open to newcomers. Serious about scientific standards. No PhD required." data-de="Offen für Einsteiger. Anspruchsvoll bei wissenschaftlichen Standards. Keine Promotion erforderlich.">Open to newcomers. Serious about scientific standards. No PhD required.</p>
+    </section>
+
+    <section id="join">
+      <p class="number">03 / <span data-en="GET INVOLVED" data-de="MITMACHEN">GET INVOLVED</span></p>
+      <h2 data-en="Let's start small." data-de="Fangen wir klein an.">Let's start small.</h2>
+      <p data-en="SCHOLĒ is an idea in its early stages, not an established institute. I am looking for people in Berlin who would like to meet, exchange ideas, give a seminar or help build the community." data-de="SCHOLĒ steht noch ganz am Anfang und ist kein bestehendes Institut. Ich suche Menschen in Berlin, die sich treffen, Ideen austauschen, ein Seminar anbieten oder beim Aufbau mithelfen möchten.">SCHOLĒ is an idea in its early stages, not an established institute. I am looking for people in Berlin who would like to meet, exchange ideas, give a seminar or help build the community.</p>
+      <p data-en="I'm Johannes, an economist working in the public sector. I started thinking about SCHOLĒ because I want to keep researching and teaching outside a university job." data-de="Ich bin Johannes, Volkswirt und im öffentlichen Dienst tätig. Die Idee zu SCHOLĒ entstand, weil ich auch außerhalb einer Universitätsstelle weiter forschen und lehren möchte.">I'm Johannes, an economist working in the public sector. I started thinking about SCHOLĒ because I want to keep researching and teaching outside a university job.</p>
+      <p><a class="text-link" href="mailto:YOUR-EMAIL@example.com?subject=SCHOL%C4%92" data-en="Write to me →" data-de="Schreib mir →">Write to me →</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>SCHOLĒ <span class="mark">ē</span></span>
+    <span>BERLIN · <a href="mailto:YOUR-EMAIL@example.com">CONTACT</a></span>
+    <!-- Before going public, add links to your legal notice and privacy policy here. -->
+  </footer>
+
+  <script>
+    // Tiny language switch. No libraries, no build process.
+    const button = document.querySelector('#language');
+    button.addEventListener('click', () => {
+      const next = document.documentElement.lang === 'en' ? 'de' : 'en';
+      document.documentElement.lang = next;
+      document.querySelectorAll('[data-en]').forEach(element => {
+        element.innerHTML = element.dataset[next];
+      });
+      button.textContent = next === 'en' ? 'DE' : 'EN';
+    });
+  </script>
+</body>
+</html>
