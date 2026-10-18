@@ -68,3 +68,7 @@ footer { color: #666; }
   .hero-motto { font-size: 10px; letter-spacing: .13em; }
   .hero-description { margin-top: 70px; }
 }
+.legal-title {
+  font-size: clamp(44px, 7vw, 70px);
+  margin-bottom: 55px;
+}
