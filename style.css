@@ -49,21 +49,23 @@ footer { color: #666; }
   align-items: center;
   justify-content: center;
   margin: 0 auto 34px;
-  font: 195px/.9 Georgia, 'Times New Roman', serif;
-  padding-bottom: 22px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 175px;
+  font-weight: normal;
+  line-height: 1;
+  padding: 0;
+  overflow: visible;
 }
-
 .hero-motto { margin: 0 auto; font: 13px Arial, sans-serif; letter-spacing: .24em; }
 .hero-description { border-top: 1px solid #ddd; margin-top: 95px; padding-top: 55px; text-align: left; }
 .hero-description .large { max-width: 680px; }
 @media (max-width: 650px) {
   .intro { padding-top: 75px; }
-  .hero-name { font-size: clamp(54px, 13vw, 85px); }
+  .hero-name { font-size: clamp(54px, 13vw, 85px); }  
   .hero-symbol {
     width: 125px;
     height: 167px;
-    font-size: 148px;
-    padding-bottom: 17px;
+    font-size: 132px;
   }
   .hero-motto { font-size: 10px; letter-spacing: .13em; }
   .hero-description { margin-top: 70px; }
