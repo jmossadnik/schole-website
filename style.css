@@ -42,14 +42,31 @@ footer { color: #666; }
 /* Main page: the wordmark and the letterpress-inspired ē are the centerpiece. */
 .intro { text-align: center; padding-top: 95px; padding-bottom: 95px; }
 .hero-name { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(70px, 14vw, 150px); letter-spacing: .015em; line-height: 1.1; margin: 0 0 36px; font-weight: normal; }
-.hero-symbol { width: 112px; height: 150px; border: 2px solid #171717; display: flex; align-items: center; justify-content: center; margin: 0 auto 34px; font: 132px/.9 Georgia, 'Times New Roman', serif; padding-bottom: 15px; }
+.hero-symbol {
+  width: 142px;
+  height: 190px;
+  border: 2px solid #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 34px;
+  font: 167px/.9 Georgia, 'Times New Roman', serif;
+  padding-bottom: 19px;
+}
 .hero-motto { margin: 0 auto; font: 13px Arial, sans-serif; letter-spacing: .24em; }
 .hero-description { border-top: 1px solid #ddd; margin-top: 95px; padding-top: 55px; text-align: left; }
 .hero-description .large { max-width: 680px; }
 @media (max-width: 650px) {
   .intro { padding-top: 75px; }
   .hero-name { font-size: clamp(54px, 13vw, 85px); }
-  .hero-symbol { width: 88px; height: 118px; font-size: 105px; }
+  
+.hero-symbol {
+  width: 110px;
+  height: 148px;
+  font-size: 132px;
+  padding-bottom: 15px;
+}
+
   .hero-motto { font-size: 10px; letter-spacing: .13em; }
   .hero-description { margin-top: 70px; }
 }
