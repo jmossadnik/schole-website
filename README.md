@@ -10,8 +10,6 @@ A deliberately simple website. No Jekyll, Hugo, npm, or other dependencies.
 
 To change a sentence, find it in `index.html`. English text is in `data-en="..."`, German in `data-de="..."`. Change both versions. The text between the tags is the English text displayed when the page first loads.
 
-**Important:** Replace `YOUR-EMAIL@example.com` in `index.html` with your actual email address. Add an Impressum and a privacy notice before making the site public in Germany. Do not publish a fictional contact address.
-
 ## Publish on GitHub Pages
 
 1. Create a public repository on GitHub (e.g. `schole-website`).
@@ -22,6 +20,3 @@ To change a sentence, find it in `index.html`. English text is in `data-en="..."
 6. Enable Enforce HTTPS when GitHub makes it available.
 
 No build command is needed. Editing and committing a file updates the site.
-
-
-Die Startseite zeigt jetzt die große Wortmarke SCHOLĒ, das eingerahmte ē und RESEARCH · TEACH · LEARN. Die Gestaltung steht in style.css unter „Main page“.
